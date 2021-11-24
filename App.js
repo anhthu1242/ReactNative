@@ -19,6 +19,12 @@ const Header = (props) => {
             >
                 React Native Tutorial
             </Text>
+
+            <Text
+                style={styles.text}
+            >
+                ............
+            </Text>
         </View>
     )
 }
