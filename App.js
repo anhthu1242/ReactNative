@@ -5,7 +5,6 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import ScreenA from './ScreenA';
 import ScreenB from './ScreenB';
-import ScreenC from './ScreenC';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 // const Tab = createBottomTabNavigator();
@@ -25,10 +24,6 @@ function App() {
               // color = focused ? '#f0f' : '#555';
             } else if (route.name === 'Screen_B') {
               iconName = 'btc';
-              size = focused ? 25 : 20;
-              // color = focused ? '#f0f' : '#555';
-            }else if (route.name === 'Screen_C') {
-              iconName = 'car';
               size = focused ? 25 : 20;
               // color = focused ? '#f0f' : '#555';
             }
@@ -63,12 +58,7 @@ function App() {
           name="Screen_B"
           component={ScreenB}
         />
-         <Tab.Screen
-          name="Screen_C"
-          component={ScreenC}
-        />
       </Tab.Navigator>
     </NavigationContainer>
   )
 }
-export default App;
