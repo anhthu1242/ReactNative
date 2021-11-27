@@ -31,6 +31,9 @@ function App() {
                 iconName = 'c';
                 size = focused ? 25 : 20;
                 // color = focused ? '#f0f' : '#555';
+              iconName = 'car';
+              size = focused ? 25 : 20;
+              // color = focused ? '#f0f' : '#555';
             }
             return (
               <FontAwesome5
@@ -63,7 +66,7 @@ function App() {
           name="Screen_B"
           component={ScreenB}
         />
-        <Tab.Screen
+         <Tab.Screen
           name="Screen_C"
           component={ScreenC}
         />
