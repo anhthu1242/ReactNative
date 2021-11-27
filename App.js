@@ -59,6 +59,10 @@ function App() {
           name="Screen_B"
           component={ScreenB}
         />
+         <Tab.Screen
+          name="Screen_C"
+          component={ScreenC}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   )
