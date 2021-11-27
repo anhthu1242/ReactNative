@@ -27,6 +27,10 @@ function App() {
               iconName = 'btc';
               size = focused ? 25 : 20;
               // color = focused ? '#f0f' : '#555';
+            }else if (route.name === 'Screen_C') {
+              iconName = 'car';
+              size = focused ? 25 : 20;
+              // color = focused ? '#f0f' : '#555';
             }
             return (
               <FontAwesome5
